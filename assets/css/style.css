@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #282828;
+  min-height: 100vh;
+  /* color:white; */
+}
+#my_header{
+  background-color: #151515;
+}
+#my_navHead{
+  font-size: 1.8rem;
+  color: lightgray;
+  font-weight: bold;
+}
