@@ -25,13 +25,19 @@
       <div class="row">
         <div class="col">
           <div class="card my-4">
-            <form action="server.php" method="get" class="p-2">
-              <label for="myWord">Inserisci una parola</label>
-              <input type="text" name="word" id="myWord">
-              <label for="toCensor">Scegli quale parola censurare</label>
-              <input type="text" name="censor" id="toCensor">
-              <button type="submit">INVIA</button>
-            </form>
+            <div class="card-header">
+              <h3>Censura una parola</h3>
+              <small>il file server.php si occuperà di gestire la richiesta</small>
+            </div>
+            <div class="card-body">
+              <form action="server.php" method="get" class="p-2">
+                <label for="myWord">Inserisci una parola</label>
+                <input type="text" name="word" id="myWord">
+                <label for="toCensor">Scegli quale parola censurare</label>
+                <input type="text" name="censor" id="toCensor">
+                <button type="submit">INVIA</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
